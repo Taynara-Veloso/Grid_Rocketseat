@@ -14,25 +14,25 @@
     border: 2px solid green;
 }
 
-#app > div {
+#app > * {
     border: 1px solid red;
 }
 
-#app div:nth-child(1){
-    grid-column-start: 1;
-    grid-column-end: 4;
+#app header{
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
-#app div:nth-child(2){
-    grid-column-start: 1;
+#app main{
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+#app div{
+    grid-column-start: 2;
     grid-column-end: 3;
 }
 
-#app div:nth-child(3){
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-
-#app div:nth-child(4){
-    grid-column: 1/4; /* maneira curta de escrever o comando */
+#app footer{
+    grid-column: 3/4; /* maneira curta de escrever o comando */
 }
