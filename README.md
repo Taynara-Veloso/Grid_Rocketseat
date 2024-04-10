@@ -17,11 +17,14 @@ o que é Grid?
 - display: grid;
 - grid-template;
     - grid-template-columns;
-        Define o número total de colunas que serão criadas no grid.
+      
+            Define o número total de colunas que serão criadas no grid.
     - grid-template-rows;
-        Especifica o número (e as alturas) das linhas em um layout de grade.
+      
+            Especifica o número (e as alturas) das linhas em um layout de grade.
     - grid-template-areas;
-        Uma das formas de criar áreas em um grid. Temos também a “propriedade-atalho” grid-template. Com o grid-template conseguimos definir as áreas, o tamanho das colunas e o tamanho das linhas de uma vez só.
+           
+            Uma das formas de criar áreas em um grid. Temos também a “propriedade-atalho” grid-template. Com o grid-template conseguimos definir as áreas, o tamanho das colunas e o tamanho das linhas de uma vez só.
     
 ---
 ### ITENS (filhos)
