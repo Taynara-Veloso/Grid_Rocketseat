@@ -4,10 +4,16 @@
 
 #app {
     display: grid;
-    /*grid-template-columns: 1fr 1fr 1fr; ou */
+    /*grid-template-columns: 1fr 1fr 1fr; ou 
     grid-template-columns: repeat(3, 1fr);
 
     grid-template-rows: repeat(3, 1fr);
+    */
+
+    grid-template-areas: 
+    "A A A"
+    "B B C"
+    "D D D";
 
     height: 100vh;
 
@@ -19,20 +25,30 @@
 }
 
 #app header{
+    /*
     grid-row-start: 1;
     grid-row-end: 4;
+    */
+    grid-area: A;
 }
 
 #app main{
+    /*
     grid-column: 2/4;
     grid-row: 1/3;
+    */
+    grid-area: B;
 }
 
 #app div{
+    /*
     grid-column-start: 2;
     grid-column-end: 3;
+    */
+    grid-area: C;
 }
 
 #app footer{
-    grid-column: 3/4; /* maneira curta de escrever o comando */
+    /* grid-column: 3/4;  maneira curta de escrever o comando */
+    grid-area: D;
 }

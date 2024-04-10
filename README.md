@@ -34,4 +34,5 @@ o que é Grid?
     - grid-column-end;
 - grid-row;
     - grid-row-start;
-    - grid-row-end;        
+    - grid-row-end;      
+- grid-area;      
