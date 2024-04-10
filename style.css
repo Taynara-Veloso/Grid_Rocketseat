@@ -1,17 +1,38 @@
+*{
+    margin: 0;
+}
+
 #app {
     display: grid;
     /*grid-template-columns: 1fr 1fr 1fr; ou */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
 
     height: 100vh;
+
+    border: 2px solid green;
 }
 
 #app > div {
     border: 1px solid red;
 }
 
-span {
-    border: 1px solid blue;
+#app div:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#app div:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#app div:nth-child(3){
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#app div:nth-child(4){
+    grid-column: 1/4; /* maneira curta de escrever o comando */
 }
