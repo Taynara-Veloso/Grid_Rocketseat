@@ -37,6 +37,18 @@
     grid-area: A;
 }
 
+#app header ul {
+    display: grid;
+    list-style: none;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 20px;
+
+    justify-content: end;
+
+    padding: 20px;
+}
+
 #app main{
     /*
     grid-column: 2/4;

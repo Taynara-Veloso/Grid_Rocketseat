@@ -82,3 +82,14 @@ Cada um deles erá observar ou o:
     `trabalha com o eixo y e x`
 
 ---
+
+## PROPRIEDADES AUTO
+
+- grid-auto-flow;
+    - Esta propriedade indica qual será o fluxo dos itens: `se devem ir para uma nova linha ou coluna.`
+- grid-auto-rows;
+    - Esta propriedade nos permite indicar qual será o tamanho de novas linhas criadas.
+- grid-auto-columns;
+    - Esta propriedade nos permite indicar qual será o tamanho de novas colunas criadas.
+
+---    
