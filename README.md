@@ -42,3 +42,43 @@ o que é Grid?
     - grid-row-start;
     - grid-row-end;      
 - grid-area;      
+---
+
+## PROPRIEDADES DE ALINHAMENTO
+
+Existem 9 propriedades fundamentais 
+
+**6 aplicadas em container**
+- `align-content`
+    - Descrito nas especificações como `empacotamento de linhas flexíveis`; controla o espaço entre linhas flexíveis no eixo cruzado.
+- `justify-content`
+- `place-content`
+
+- `align-items` 
+    - Controla o alinhamento de todos os itens no eixo cruzado.
+
+- `justify-items`
+- `place-items`
+
+**3 aplicadas em itens**
+- `align-self`
+    - Controla o alinhamento de um item flexível individual no eixo cruzado.
+- `justify-self`
+- `place-self`
+
+Cada um deles erá observar ou o:
+- Conteúdo do elemento `content`
+- Itens do elemento `items`
+- O próprio elemento `self`
+
+
+**Align:** 
+    `trabalha com o eixo y`
+
+**Justify:** 
+    `trabalha com o eixo x`
+
+**Place:** 
+    `trabalha com o eixo y e x`
+
+---
