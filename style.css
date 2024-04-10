@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 #app {
@@ -17,11 +18,15 @@
 
     height: 100vh;
 
-    border: 2px solid green;
+    gap: 20px;
+
+    padding: 20px;
+    
+    border: 2px solid red;
 }
 
 #app > * {
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 #app header{

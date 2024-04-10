@@ -24,8 +24,14 @@ o que é Grid?
             Especifica o número (e as alturas) das linhas em um layout de grade.
     - grid-template-areas;
            
-            Uma das formas de criar áreas em um grid. Temos também a “propriedade-atalho” grid-template. Com o grid-template conseguimos definir as áreas, o tamanho das colunas e o tamanho das linhas de uma vez só.
-    
+            Uma das formas de criar áreas em um grid. Temos também a “propriedade-atalho” grid-template. Com o grid-template conseguimos definir as áreas, o tamanho das colunas e o tamanho das linhas de uma vez só.           
+- gap;
+    - row-gap;
+
+        Define o tamanho do intervalo entre as linhas de um elemento.
+    - column-gap;
+
+        Define o tamanho da lacuna entre as colunas de um elemento.
 ---
 ### ITENS (filhos)
 
